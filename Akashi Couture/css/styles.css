@@ -1,0 +1,1032 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+* {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 400px)
+{
+    /* Tete de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url("../Images/bg-ac.webp");
+    background-size: cover;
+    height: 100vh;
+    padding: 25px;
+}
+
+/* Page de Bienvenue (Landing Page) */
+
+.landing-page {
+    padding: 30px 20px;
+    position: relative;
+}
+
+.big-title {
+    color: #C96D63;
+    font-size: 40px;
+    padding: 10px 10px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    width: 100%;
+}
+
+.scroll-down {
+    color: #C96D63;
+    text-decoration: none;
+    position: absolute;
+    bottom: -10%;
+}
+
+
+/* Menu de Navigation */
+
+nav.nav {
+    display: grid;
+    list-style-type: none;
+    margin-left: 5px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav.nav li a {
+    color: #C96D63;
+    text-decoration: none;
+}
+
+/* services */
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon {
+    font-size: 30px;
+    color: #C96D63;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 120px;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* Nos Meilleures */
+
+.section-title {
+    font-size: 20px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #C96D63;
+    width: 50px;
+    height: 5px;
+    bottom: 0;
+}
+
+.nos-meilleures {
+    margin: 30px;
+}
+
+.meilleures-ventes {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meilleures-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.no-grid {
+    min-width: 100%;
+    height: 300px;
+    flex: 1
+}
+
+.t1 {
+    background-image: url(../Images/nos_meilleures_ventes/t1.jpg);
+}
+
+.t2 {
+    background-image: url(../Images/nos_meilleures_ventes/t2.jpg);
+}
+
+.t3 {
+    background-image: url(../Images/nos_meilleures_ventes/t3.jpg);
+}
+
+.t4 {
+    background-image: url(../Images/nos_meilleures_ventes/t4.jpg);
+}
+
+.t5 {
+    background-image: url(../Images/nos_meilleures_ventes/t5.jpg);
+}
+
+.t6 {
+    background-image: url(../Images/nos_meilleures_ventes/t6.jpg);
+}
+
+.meilleures-details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFFDF;
+    padding: 10px 20px;
+}
+
+.meilleures-name {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.meilleures-price {
+    color: #C96D63;
+    font-weight: 800;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+/* Nos Tenues */
+
+.nos-tenues {
+    margin: 30px;
+}
+
+.tenues {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tenues-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.no-grid2 {
+    min-width: 100%;
+    height: 300px;
+    flex: 1;
+}
+
+.t7 {
+    background-image: url(../Images/nos_tenues/t7.jpg);
+}
+
+.t8 {
+    background-image: url(../Images/nos_tenues/t8.jpg);
+}
+
+.t9 {
+    background-image: url(../Images/nos_tenues/t9.jpg);
+}
+
+.t10 {
+    background-image: url(../Images/nos_tenues/t10.jpg);
+}
+
+.t11 {
+    background-image: url(../Images/nos_tenues/t11.jpg);
+}
+
+.t12 {
+    background-image: url(../Images/nos_tenues/t12.jpg);
+}
+
+.t13 {
+    background-image: url(../Images/nos_tenues/t13.jpg);
+}
+
+.t14 {
+    background-image: url(../Images/nos_tenues/t14.jpg);
+}
+
+.tenues-details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFFDF;
+    padding: 10px 20px;
+}
+
+.tenues-name {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.tenues-price {
+    color: #C96D63;
+    font-weight: 800;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+/* Soldes */
+
+.soldes {
+    margin: 30px;
+}
+
+.en-soldes {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.soldes-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.no-grid3 {
+    min-width: 100%;
+    height: 300px;
+    flex: 1;
+}
+
+.t15 {
+    background-image: url(../Images/en_promotion/t15.jpg);
+}
+
+.t16 {
+    background-image: url(../Images/en_promotion/t16.jpg);
+}
+
+.t17 {
+    background-image: url(../Images/en_promotion/t17.jpg);
+}
+
+.t18 {
+    background-image: url(../Images/en_promotion/t18.jpg);
+}
+
+.t19 {
+    background-image: url(../Images/en_promotion/t19.jpg);
+}
+
+.t20 {
+    background-image: url(../Images/en_promotion/t20.jpg);
+}
+
+.soldes-details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFFDF;
+    padding: 10px 20px;
+}
+
+.soldes-name {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.soldes-price {
+    color: #C96D63;
+    font-weight: 800;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+/* Pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    background-color: #C96D63;
+    padding: 10px 20px;
+    font-size: 8px;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
+
+}
+
+
+
+
+/* Tablette */
+
+@media only screen and (min-width: 401px) and (max-width: 960px)
+{
+    /* Tete de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url("../Images/bg-ac.webp");
+    background-size: cover;
+    height: 100vh;
+    padding: 25px;
+}
+
+/* Page de Bienvenue (Landing Page) */
+
+.landing-page {
+    padding: 20px 50px;
+    position: relative;
+}
+
+.big-title {
+    color: #C96D63;
+    font-size: 60px;
+    padding: 20px 30px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    width: 80%;
+    position: absolute;
+    bottom: -800%;
+}
+
+.scroll-down {
+    color: #C96D63;
+    text-decoration: none;
+    position: absolute;
+    bottom: -1100%;
+}
+
+
+/* Menu de Navigation */
+
+nav.nav {
+    display: flex;
+    list-style: none;
+    margin-left: 15px;
+    width: 450px;
+    justify-content: space-between;
+}
+
+nav.nav li a {
+    color: #C96D63;
+    text-decoration: none;
+}
+
+/* services */
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: #C96D63;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+/* Nos Meilleures */
+
+.section-title {
+    font-size: 40px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #C96D63;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.nos-meilleures {
+    margin: 100px;
+}
+
+.meilleures-ventes {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meilleures-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.no-grid {
+    min-width: 200px;
+    height: 300px;
+    flex: 1
+}
+
+.t1 {
+    background-image: url(../Images/nos_meilleures_ventes/t1.jpg);
+}
+
+.t2 {
+    background-image: url(../Images/nos_meilleures_ventes/t2.jpg);
+}
+
+.t3 {
+    background-image: url(../Images/nos_meilleures_ventes/t3.jpg);
+}
+
+.t4 {
+    background-image: url(../Images/nos_meilleures_ventes/t4.jpg);
+}
+
+.t5 {
+    background-image: url(../Images/nos_meilleures_ventes/t5.jpg);
+}
+
+.t6 {
+    background-image: url(../Images/nos_meilleures_ventes/t6.jpg);
+}
+
+.meilleures-details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFFDF;
+    padding: 10px 20px;
+}
+
+.meilleures-name {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.meilleures-price {
+    color: #C96D63;
+    font-weight: 800;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+/* Nos Tenues */
+
+.nos-tenues {
+    margin: 100px;
+}
+
+.tenues {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tenues-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.no-grid2 {
+    min-width: 150px;
+    height: 300px;
+    flex: 1;
+}
+
+.t7 {
+    background-image: url(../Images/nos_tenues/t7.jpg);
+}
+
+.t8 {
+    background-image: url(../Images/nos_tenues/t8.jpg);
+}
+
+.t9 {
+    background-image: url(../Images/nos_tenues/t9.jpg);
+}
+
+.t10 {
+    background-image: url(../Images/nos_tenues/t10.jpg);
+}
+
+.t11 {
+    background-image: url(../Images/nos_tenues/t11.jpg);
+}
+
+.t12 {
+    background-image: url(../Images/nos_tenues/t12.jpg);
+}
+
+.t13 {
+    background-image: url(../Images/nos_tenues/t13.jpg);
+}
+
+.t14 {
+    background-image: url(../Images/nos_tenues/t14.jpg);
+}
+
+.tenues-details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFFDF;
+    padding: 10px 20px;
+}
+
+.tenues-name {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.tenues-price {
+    color: #C96D63;
+    font-weight: 800;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+/* Soldes */
+
+.soldes {
+    margin: 100px;
+}
+
+.en-soldes {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.soldes-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.no-grid3 {
+    min-width: 200px;
+    height: 300px;
+    flex: 1;
+}
+
+.t15 {
+    background-image: url(../Images/en_promotion/t15.jpg);
+}
+
+.t16 {
+    background-image: url(../Images/en_promotion/t16.jpg);
+}
+
+.t17 {
+    background-image: url(../Images/en_promotion/t17.jpg);
+}
+
+.t18 {
+    background-image: url(../Images/en_promotion/t18.jpg);
+}
+
+.t19 {
+    background-image: url(../Images/en_promotion/t19.jpg);
+}
+
+.t20 {
+    background-image: url(../Images/en_promotion/t20.jpg);
+}
+
+.soldes-details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFFDF;
+    padding: 10px 20px;
+}
+
+.soldes-name {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.soldes-price {
+    color: #C96D63;
+    font-weight: 800;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+/* Pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    background-color: #C96D63;
+    padding: 15px 40px;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
+
+}
+
+
+
+/* Desktop */
+
+@media only screen and (min-width: 901px)
+{
+    /* Tete de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url("../Images/bg-ac.webp");
+    background-size: cover;
+    height: 100vh;
+    padding: 25px;
+}
+
+/* Page de Bienvenue (Landing Page) */
+
+.landing-page {
+    padding: 20px 50px;
+    position: relative;
+}
+
+.big-title {
+    color: #C96D63;
+    font-size: 80px;
+    padding: 20px 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    width: 60%;
+}
+
+.scroll-down {
+    color: #C96D63;
+    text-decoration: none;
+    position: absolute;
+    bottom: -20%;
+}
+
+
+/* Menu de Navigation */
+
+nav.nav {
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+    width: 500px;
+    justify-content: space-between;
+}
+
+nav.nav li a {
+    color: #C96D63;
+    text-decoration: none;
+}
+
+/* services */
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: #C96D63;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+/* Nos Meilleures */
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #C96D63;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.nos-meilleures {
+    margin: 100px;
+}
+
+.meilleures-ventes {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meilleures-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.no-grid {
+    min-width: 350px;
+    height: 500px;
+    flex: 1
+}
+
+.t1 {
+    background-image: url(../Images/nos_meilleures_ventes/t1.jpg);
+}
+
+.t2 {
+    background-image: url(../Images/nos_meilleures_ventes/t2.jpg);
+}
+
+.t3 {
+    background-image: url(../Images/nos_meilleures_ventes/t3.jpg);
+}
+
+.t4 {
+    background-image: url(../Images/nos_meilleures_ventes/t4.jpg);
+}
+
+.t5 {
+    background-image: url(../Images/nos_meilleures_ventes/t5.jpg);
+}
+
+.t6 {
+    background-image: url(../Images/nos_meilleures_ventes/t6.jpg);
+}
+
+.meilleures-details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFFDF;
+    padding: 10px 20px;
+}
+
+.meilleures-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.meilleures-price {
+    color: #C96D63;
+    font-weight: 800;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+/* Nos Tenues */
+
+.nos-tenues {
+    margin: 100px;
+}
+
+.tenues {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tenues-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.no-grid2 {
+    min-width: 250px;
+    height: 500px;
+    flex: 1;
+}
+
+.t7 {
+    background-image: url(../Images/nos_tenues/t7.jpg);
+}
+
+.t8 {
+    background-image: url(../Images/nos_tenues/t8.jpg);
+}
+
+.t9 {
+    background-image: url(../Images/nos_tenues/t9.jpg);
+}
+
+.t10 {
+    background-image: url(../Images/nos_tenues/t10.jpg);
+}
+
+.t11 {
+    background-image: url(../Images/nos_tenues/t11.jpg);
+}
+
+.t12 {
+    background-image: url(../Images/nos_tenues/t12.jpg);
+}
+
+.t13 {
+    background-image: url(../Images/nos_tenues/t13.jpg);
+}
+
+.t14 {
+    background-image: url(../Images/nos_tenues/t14.jpg);
+}
+
+.tenues-details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFFDF;
+    padding: 10px 20px;
+}
+
+.tenues-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.tenues-price {
+    color: #C96D63;
+    font-weight: 800;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+/* Soldes */
+
+.soldes {
+    margin: 100px;
+}
+
+.en-soldes {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.soldes-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.no-grid3 {
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.t15 {
+    background-image: url(../Images/en_promotion/t15.jpg);
+}
+
+.t16 {
+    background-image: url(../Images/en_promotion/t16.jpg);
+}
+
+.t17 {
+    background-image: url(../Images/en_promotion/t17.jpg);
+}
+
+.t18 {
+    background-image: url(../Images/en_promotion/t18.jpg);
+}
+
+.t19 {
+    background-image: url(../Images/en_promotion/t19.jpg);
+}
+
+.t20 {
+    background-image: url(../Images/en_promotion/t20.jpg);
+}
+
+.soldes-details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFFDF;
+    padding: 10px 20px;
+}
+
+.soldes-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.soldes-price {
+    color: #C96D63;
+    font-weight: 800;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+/* Pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    background-color: #C96D63;
+    padding: 20px 50px;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
+
+}
